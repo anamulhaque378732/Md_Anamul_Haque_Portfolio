@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="md:mt-16 ">
           <img
             src={image}
-            className=" w-96 h-[450px]  rounded-tl-[12%] rounded-tr-[4%] rounded-br-[12%] rounded-bl-[4%]  lg:ml-20 shadow-2xl"
+            className=" w-96 md:h-[450px]  rounded-tl-[12%] rounded-tr-[4%] rounded-br-[12%] rounded-bl-[4%]  lg:ml-20 shadow-2xl"
           />
         </div>
         <div className="md:mt-20 ">
@@ -28,27 +28,24 @@ const Navbar = () => {
             <ul className="flex gap-3 text-2xl mb-2 py-2">
               <li>
                 <a href="">
-                  {" "}
-                  <IoLogoLinkedin />{" "}
+                  <IoLogoLinkedin />
                 </a>
               </li>
               <li>
                 <a href="">
-                  {" "}
-                  <FaTwitter />{" "}
+                  <FaTwitter />
                 </a>
               </li>
               <li>
                 <a href="">
-                  {" "}
-                  <FaGithub />{" "}
+                  <FaGithub />
                 </a>
               </li>
             </ul>
             <ul className="flex gap-3 text-center text-2xl mb-2 py-2">
               <li>
                 <p className="flex items-center  gap-2" href="">
-                  <CgMail className="" />{" "}
+                  <CgMail className="" />
                   <span className="text-xl -pb-2 hover:underline ">
                     anamulhaque4631@gmail.com
                   </span>
