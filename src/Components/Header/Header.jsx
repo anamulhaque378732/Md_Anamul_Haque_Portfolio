@@ -59,7 +59,7 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <Link to="/seyHi" className="btn">
+          <Link to="/contact" className="btn">
             Say Hi
           </Link>
         </div>

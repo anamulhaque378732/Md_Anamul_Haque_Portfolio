@@ -3,11 +3,12 @@ import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 import MySkill from "../Components/MySkils/MySkill";
 import Navbar from "../Components/Navbar/Navbar";
+import SaySomething from "../Components/SaySomething/SaySomething";
 
 const Home = () => {
   return (
     <>
-      <div className=" lg:px-10 md:px-4  mx-auto ">
+      <div className="lg:px-10 md:px-4 mx-auto sm:px-2 sm:mx-1">
         <div className="md:h-screen">
           <header>
             <Header></Header>
@@ -22,12 +23,17 @@ const Home = () => {
           </section>
           <hr />
           <section>
-            {" "}
             <MySkill />
+          </section>
+          <hr />
+          <section className="py-10">Projects</section> <hr />
+          <section>
+            {" "}
+            <SaySomething />{" "}
           </section>
         </main>
       </div>
-      <div>
+      <div className="mt-5">
         <section className="w-full">
           <Footer></Footer>
         </section>
