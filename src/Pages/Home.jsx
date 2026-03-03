@@ -9,15 +9,15 @@ const Home = () => {
   return (
     <>
       <div className="lg:px-10 md:px-4 mx-auto sm:px-2 sm:mx-1">
-        <div className="md:h-screen">
+        <div className="lg:h-screen">
           <header>
             <Header></Header>
           </header>
-          <nav className="lg:my-10 md:my-5 md:w-8/12 mx-auto my-2">
+          <nav className="lg:my-10   md:my-5 lg:8/12 md:w-10/12 mx-auto my-2">
             <Navbar />
           </nav>
         </div>
-        <main className="md:w-8/12 mx-auto ">
+        <main className="lg:w-8/12 md:w-10/12 mx-auto ">
           <section>
             <AboutMe></AboutMe>
           </section>
@@ -28,8 +28,7 @@ const Home = () => {
           <hr />
           <section className="py-10">Projects</section> <hr />
           <section>
-            {" "}
-            <SaySomething />{" "}
+            <SaySomething />
           </section>
         </main>
       </div>

@@ -13,7 +13,7 @@ const AboutDetails = () => {
         <p>
           I love turning ideas into code, creating digital experiences that are
           smooth, engaging, and
-          <span className="font-bold">user-friendly</span>. I focus on doing
+          <span className="font-bold"> user-friendly</span>. I focus on doing
           things well and learning from each project.
         </p>
         <p className="py-4">

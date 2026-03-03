@@ -4,26 +4,82 @@ const Header = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `px-3 py-2 rounded-md transition ${
+              isActive
+                ? " border border-purple-400  text-purple-600"
+                : "text-white hover:text-blue-500"
+            }`
+          }
+          to="/"
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/about">About</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `px-3 py-2 rounded-md transition ${
+              isActive
+                ? "border border-purple-400  text-purple-600"
+                : "text-white hover:text-blue-500"
+            }`
+          }
+          to="/about"
+        >
+          About
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/skills"> Skills</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `px-3 py-2 rounded-md transition ${
+              isActive
+                ? "border border-purple-400  text-purple-600"
+                : "text-white hover:text-blue-500"
+            }`
+          }
+          to="/skills"
+        >
+          {" "}
+          Skills
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/projects">Projects</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `px-3 py-2 rounded-md transition ${
+              isActive
+                ? " border border-purple-400  text-purple-600"
+                : "text-white hover:text-blue-500"
+            }`
+          }
+          to="/projects"
+        >
+          Projects
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `px-3 py-2 rounded-md transition ${
+              isActive
+                ? "border border-purple-400  text-purple-600"
+                : "text-white hover:text-blue-500"
+            }`
+          }
+          to="/contact"
+        >
+          Contact
+        </NavLink>
       </li>
     </>
   );
 
   return (
     <>
-      <div className="navbar   bg-base-100 shadow-sm">
+      <div className="navbar sticky h-fit   bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

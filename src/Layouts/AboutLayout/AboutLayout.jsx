@@ -13,9 +13,9 @@ const AboutLayout = () => {
         <Header></Header>
       </header>
       <main>
-        <section className="md:w-8/12  mx-auto ">
+        <section className=" lg:w-8/12  md:w-10/12  mx-auto ">
           <div className="mt-4 mb-5">
-            <div className=" ">
+            <div className="md:mb-6 ">
               <AboutHeader />
             </div>
             <div className="md:flex mt-4 gap-20 justify-between ">
@@ -23,12 +23,11 @@ const AboutLayout = () => {
             </div>
           </div>
           <div>
-            {" "}
             <ContactAbout></ContactAbout>
           </div>
         </section>
+
         <section className=" md:w-8/12  mx-auto ">
-          {" "}
           <SaySomething></SaySomething>
         </section>
       </main>

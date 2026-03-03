@@ -4,7 +4,7 @@ import Skills from "./Skills";
 const MySkill = () => {
   return (
     <div className="md:my-5 md:py-5 my-2 py-2">
-      <div className="md:w-[550px]">
+      <div className="md:w-[550px] mx-3 p-1">
         <SkillHeader />
       </div>
       <div>

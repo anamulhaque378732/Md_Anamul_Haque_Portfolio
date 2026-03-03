@@ -7,12 +7,12 @@ import SaySomething from "../../Components/SaySomething/SaySomething";
 const SkillLayout = () => {
   return (
     <>
-      <div className="lg:px-10 md:px-4 mx-auto sm:px-2 sm:mx-1">
+      <div className="lg:px-10 md:px-4 md:mx-2 mx-auto sm:px-2  sm:mx-3">
         <header>
           <Header />
         </header>
-        <section className="md:w-8/12  mx-auto">
-          <div className="">
+        <section className="lg:w-10/12  md:w-10/12 my-3  mx-auto">
+          <div className=" mx-2 px-2">
             <SkillHeader />
           </div>
           <div>

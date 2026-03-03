@@ -11,9 +11,9 @@ import gitLogo from "../../assets/gitPng.png";
 
 const Skills = () => {
   return (
-    <div className=" grid lg:grid-cols-3   md:grid-cols-2 sm:grid-cols-1">
+    <div className=" grid lg:grid-cols-3  gap-4  md:grid-cols-1 sm:grid-cols-1">
       <div className="flex gap-4 p-4 md:w-96  rounded-lg">
-        <ul className="border justify-center rounded-lg gap-5 flex flex-wrap mx-w-[20.1rem] p-4">
+        <ul className="border justify-center rounded-lg   gap-5 flex flex-wrap mx-w-[20.1rem] p-4">
           <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
             <img
               className="w-10 h-10 rounded-sm"
