@@ -3,7 +3,7 @@ import proPic from "../../assets/proPic.jpeg";
 const AboutDetails = () => {
   return (
     <>
-      <div className="flex-1">
+      <div className="flex-1 ">
         <h1 className="text-3xl mt-5 font-medium">A little bit about me</h1>
         <p className="py-4">
           I'm a front-end developer from Bogura, Rajshahi,Bangladesh. I care

@@ -19,7 +19,7 @@ const SaySomething = () => {
           <NavNewTab />
           <ul className="flex gap-3 md:mt-10 mt-2 mx-2  text-center opacity-90 z-50 bg-white text-black md:py-5  border rounded-xl text-2xl mb-2 py-2">
             <li className="py-3 ">
-              <p className="flex  items-center px-2 mx-2 gap-2" href="">
+              <p className="flex  items-center px-2 mx-2 gap-2">
                 <CgMail className="mt-1 text-3xl" />
                 <span className="text-xl -pb-2 hover:underline ">
                   anamulhaque4631@gmail.com

@@ -15,7 +15,7 @@ const AboutLayout = () => {
       <main>
         <section className=" lg:w-8/12  md:w-10/12  mx-auto ">
           <div className="mt-4 mb-5">
-            <div className="md:mb-6 ">
+            <div className="md:mb-6 lg:mb-6 mb-2 ">
               <AboutHeader />
             </div>
             <div className="md:flex mt-4 gap-20 justify-between ">

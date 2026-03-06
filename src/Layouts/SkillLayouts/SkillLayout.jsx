@@ -11,7 +11,7 @@ const SkillLayout = () => {
         <header>
           <Header />
         </header>
-        <section className="lg:w-10/12  md:w-10/12 my-3  mx-auto">
+        <section className="lg:w-8/12  md:w-10/12 my-3  mx-auto">
           <div className=" mx-2 px-2">
             <SkillHeader />
           </div>
@@ -19,7 +19,7 @@ const SkillLayout = () => {
             <Skills />
           </div>
         </section>
-        <section className="md:w-8/12  mx-auto ">
+        <section className="lg:w-8/12 md:w-10/12  mx-auto ">
           <SaySomething />
         </section>
       </div>

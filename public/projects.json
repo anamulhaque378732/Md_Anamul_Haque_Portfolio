@@ -1,0 +1,18 @@
+[
+  {
+    "id": "001",
+    "image_url": "https://i.ibb.co.com/Myyps4JL/Capture-1.png",
+    "title": "News Website",
+    "details": "Modern news website built with React, React Hooks, Tailwind CSS, and Firebase authentication. Features categories, latest news, login system, social links, and responsive layout for seamless user experience.",
+    "use_element": [
+      "HTML",
+      "React",
+      "Tailwind CSS",
+      "React Router Dom",
+      "React Hook From",
+      "Firebase Authentication"
+    ],
+    "code_url": "https://github.com/anamulhaque378732/dragonNews463199",
+    "visit_url": "https://dragonnews4631.firebaseapp.com/category/0"
+  }
+]

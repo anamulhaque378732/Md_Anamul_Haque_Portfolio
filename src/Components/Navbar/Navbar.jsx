@@ -1,14 +1,13 @@
 import { Link } from "react-router";
 import { BsArrowDownRight } from "react-icons/bs";
 import image from "../../assets/image.png";
-
 import { CgMail } from "react-icons/cg";
-
 import NavNewTab from "./NavNewTab";
+
 const Navbar = () => {
   return (
-    <div className="  md:px-8 mx-2 ">
-      <div className=" flex   lg:flex-row-reverse flex-col  justify-between mt-2  py-4">
+    <div className=" lg:px-8  md:px-8 mx-2 ">
+      <div className=" flex   lg:flex-row-reverse flex-col justify-between   mt-2  py-4">
         <div className="md:mt-16  ">
           <img
             src={image}
@@ -31,7 +30,7 @@ const Navbar = () => {
             <NavNewTab />
             <ul className="flex gap-3 text-center text-2xl mb-2 py-2">
               <li>
-                <p className="flex items-center  gap-2" href="">
+                <p className="flex items-center  gap-2">
                   <CgMail className="" />
                   <span className="text-xl -pb-2 hover:underline ">
                     anamulhaque4631@gmail.com
