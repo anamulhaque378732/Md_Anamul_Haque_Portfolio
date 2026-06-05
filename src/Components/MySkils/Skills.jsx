@@ -8,7 +8,8 @@ import bootstrapLogo from "../../assets/bootstarpPng.png";
 import tailwindLogo from "../../assets/tailwindLogoPng.webp";
 import styleComponentLogo from "../../assets/styleComponentPng.png";
 import gitLogo from "../../assets/gitPng.png";
-
+import goLogo from "../../assets/go.png";
+import gitHubLogo from "../../assets/github.png";
 const Skills = () => {
   return (
     <div className=" grid lg:grid-cols-3  gap-4  md:grid-cols-1 sm:grid-cols-1">
@@ -30,9 +31,13 @@ const Skills = () => {
             <img
               className="w-10 h-10 rounded-sm"
               src={javaScriptLogo}
-              alt="jsLogo"
+              alt="JsLogo"
             />{" "}
             <p>JavaScript</p>
+          </li>
+          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
+            <img className="w-10 h-10 rounded-sm" src={goLogo} alt="GoLogo" />{" "}
+            <p> Go </p>
           </li>
         </ul>
       </div>
@@ -97,6 +102,14 @@ const Skills = () => {
           <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
             <img className="w-10 rounded-sm h-10" src={gitLogo} alt="gitLogo" />{" "}
             <p>Git</p>
+          </li>
+          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
+            <img
+              className="w-10 rounded-sm h-10"
+              src={gitHubLogo}
+              alt="gitLogo"
+            />{" "}
+            <p>GitHub</p>
           </li>
         </ul>
       </div>
