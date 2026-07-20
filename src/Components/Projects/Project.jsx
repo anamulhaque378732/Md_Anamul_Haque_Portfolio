@@ -7,8 +7,8 @@ const Project = ({ project }) => {
 
   return (
     <div className="max-w-lg mx-auto">
-      <div className="bg-base-300 rounded-2xl shadow-xl p-6 border border-gray-100">
-        <div className="rounded-xl overflow-hidden mb-6">
+      <div className="bg-base-300 rounded-2xl shadow-xl md:p-6 p-2 border border-gray-100">
+        <div className="rounded-xl overflow-hidden mb-2 md:mb-6">
           <img
             src={image_url}
             alt="Project"

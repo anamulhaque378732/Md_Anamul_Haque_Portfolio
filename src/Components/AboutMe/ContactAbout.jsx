@@ -24,7 +24,7 @@ const ContactAbout = () => {
           <CiLocationOn className="mt-1" />
           Location
         </h1>
-        <p> Bogura,Bangladesh</p>
+        <p> Bogura, Bangladesh</p>
       </div>
       <div className=" border-l-4 border-violet-800 pl-2 my-3 md:my-5 rounded-l-md ">
         <h1 className="flex text-2xl font-bold pb-2  gap-2">

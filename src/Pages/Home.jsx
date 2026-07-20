@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <div className="lg:px-10 md:px-4 mx-auto sm:px-2 sm:mx-1">
-        <div className=" lg:h-screen">
+        <div className="lg:h-screen">
           <header>
             <Header></Header>
           </header>
