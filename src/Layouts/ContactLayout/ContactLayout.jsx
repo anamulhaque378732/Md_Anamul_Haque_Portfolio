@@ -1,5 +1,5 @@
 import Footer from "../../Components/Footer/Footer";
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/Navbar/Navbar";
 import SaySomething from "../../Components/SaySomething/SaySomething";
 
 const ContactLayout = () => {

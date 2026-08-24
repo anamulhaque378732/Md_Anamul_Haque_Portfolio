@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router";
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/Navbar/Navbar";
 
 import ProjectsHeader from "../../Components/Projects/ProjectsHeader";
 

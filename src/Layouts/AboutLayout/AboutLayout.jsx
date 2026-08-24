@@ -1,10 +1,9 @@
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/Navbar/Navbar";
 
 import Footer from "../../Components/Footer/Footer";
 import AboutHeader from "../../Components/AboutMe/AboutHeader";
 import AboutDetails from "../../Components/AboutMe/AboutDetails";
 import ContactAbout from "../../Components/AboutMe/ContactAbout";
-import SaySomething from "../../Components/SaySomething/SaySomething";
 
 const AboutLayout = () => {
   return (
