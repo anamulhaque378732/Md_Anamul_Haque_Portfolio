@@ -3,16 +3,12 @@ import Header from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import AboutHeader from "../../Components/AboutMe/AboutHeader";
 import AboutDetails from "../../Components/AboutMe/AboutDetails";
-import ContactAbout from "../../Components/AboutMe/ContactAbout";
 
 const AboutLayout = () => {
   return (
-    <div className="lg:px-10 md:px-4 mx-auto sm:px-2 sm:mx-1">
-      <header>
-        <Header></Header>
-      </header>
+    <div className="mx-auto sm:px-2 lg:my-12 md:my-8 my-4 sm:mx-1">
       <main>
-        <section className="      mx-auto ">
+        <section className=" mx-auto ">
           <div className="mt-4 mb-5">
             <div className="md:mb-6 lg:mb-6 mb-2 ">
               <AboutHeader />
@@ -21,15 +17,8 @@ const AboutLayout = () => {
               <AboutDetails />
             </div>
           </div>
-          <div>
-            <ContactAbout></ContactAbout>
-          </div>
         </section>
       </main>
-
-      <footer className="mt-4 pt-4">
-        <Footer></Footer>
-      </footer>
     </div>
   );
 };

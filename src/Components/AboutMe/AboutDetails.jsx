@@ -1,4 +1,5 @@
 import proPic from "../../assets/proPic.jpg";
+import ContactAbout from "./ContactAbout";
 
 const AboutDetails = () => {
   return (
@@ -21,6 +22,9 @@ const AboutDetails = () => {
           <span className="font-bold"> latest design trends</span>. These
           hobbies keep me inspired and help me stay sharp in my work.
         </p>
+        <div className="">
+          <ContactAbout></ContactAbout>
+        </div>
       </div>
       <div className="flex-1">
         <img className="md:w-[600px] rounded-3xl" src={proPic} alt="" />

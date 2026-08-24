@@ -1,10 +1,9 @@
 import { CgMail } from "react-icons/cg";
 import { FiSend, FiMessageCircle } from "react-icons/fi";
-import NavNewTab from "../Banner/BannerNew";
 
 const SaySomething = () => {
   return (
-    <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1  md:mt-10 mt-2 md:gap-5 ">
+    <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 lg:my-12 md:my-8 my-4  md:mt-10 mt-2 md:gap-5  ">
       <div className=" flex-1 md:px-5 py-2">
         <h1 className="text-5xl md:py-4 px-1 py-3 mx-2  md:mx-2 font-bold text-purple-600">
           Let's chat.
@@ -16,7 +15,6 @@ const SaySomething = () => {
           Let's create something together 🤟
         </p>
         <div className="py-5 ">
-          <NavNewTab />
           <ul className="flex gap-3 md:mt-10 mt-2 mx-2  text-center opacity-90 z-50 bg-white text-black md:py-5  border rounded-xl text-2xl mb-2 py-2">
             <li className="py-3 ">
               <p className="flex  items-center px-2 mx-2 gap-2">

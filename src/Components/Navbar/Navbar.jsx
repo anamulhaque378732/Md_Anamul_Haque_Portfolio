@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router";
 
-const Header = () => {
+const Navbar = () => {
   const links = (
     <>
       <li>
@@ -42,7 +42,6 @@ const Header = () => {
           }
           to="/skills"
         >
-          {" "}
           Skills
         </NavLink>
       </li>
@@ -105,10 +104,10 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
+          <Link to="/" className="btn btn-ghost text-xl">
             A <span className="text-orange-600">.</span>
             <span>Haque</span>
-          </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
@@ -123,4 +122,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

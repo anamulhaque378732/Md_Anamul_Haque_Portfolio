@@ -5,7 +5,7 @@ import { HiCalendar } from "react-icons/hi";
 
 const ContactAbout = () => {
   return (
-    <div className="grid my-4  md:grid-cols-2 md:w-1/2">
+    <div className="grid my-4  md:grid-cols-2">
       <div className=" my-3 border-l-4 border-violet-800 pl-2 md:my-5 rounded-l-md ">
         <h1 className="flex text-2xl font-bold pb-2  gap-2">
           <FaRegUser className="mt-1" />
