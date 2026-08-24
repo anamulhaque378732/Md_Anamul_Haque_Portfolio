@@ -13,29 +13,29 @@ export const router = createBrowserRouter([
     errorElement: <h1> Error</h1>,
     children: [
       {
-        path: "/",
+        index: true,
         Component: Home,
         loader: () => fetch("/projects.json"),
         hydrateFallbackElement: <p> Loading</p>,
       },
+      {
+        path: "/skills",
+        Component: SkillLayout,
+      },
+      {
+        path: "/about",
+        Component: AboutLayout,
+      },
+      {
+        path: "/contact",
+        Component: ContactLayout,
+      },
     ],
-  },
-  {
-    path: "/skills",
-    Component: SkillLayout,
-  },
-  {
-    path: "/about",
-    Component: AboutLayout,
   },
   {
     path: "/projects",
     Component: ProjectLayout,
     loader: () => fetch("/projects.json"),
     hydrateFallbackElement: <p> loading</p>,
-  },
-  {
-    path: "/contact",
-    Component: ContactLayout,
   },
 ]);

@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { BsArrowDownRight } from "react-icons/bs";
 import image from "../../assets/image.png";
 import { CgMail } from "react-icons/cg";
-import NavNewTab from "./NavNewTab";
+import NavNewTab from "./BannerNew";
 
 const Navbar = () => {
   return (

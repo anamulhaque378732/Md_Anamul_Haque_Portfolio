@@ -13,7 +13,7 @@ const AboutLayout = () => {
         <Header></Header>
       </header>
       <main>
-        <section className=" lg:w-8/12  md:w-10/12  mx-auto ">
+        <section className="      mx-auto ">
           <div className="mt-4 mb-5">
             <div className="md:mb-6 lg:mb-6 mb-2 ">
               <AboutHeader />
@@ -25,10 +25,6 @@ const AboutLayout = () => {
           <div>
             <ContactAbout></ContactAbout>
           </div>
-        </section>
-
-        <section className=" md:w-8/12  mx-auto ">
-          <SaySomething></SaySomething>
         </section>
       </main>
 

@@ -1,8 +1,7 @@
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
-import SkillHeader from "../../Components/MySkils/SkillHeader";
-import Skills from "../../Components/MySkils/Skills";
-import SaySomething from "../../Components/SaySomething/SaySomething";
+import SkillHeader from "../../Components/MySkills/SkillHeader";
+import Skills from "../../Components/MySkills/Skills";
 
 const SkillLayout = () => {
   return (
@@ -11,16 +10,13 @@ const SkillLayout = () => {
         <header>
           <Header />
         </header>
-        <section className="lg:w-8/12  md:w-10/12 my-3  mx-auto">
+        <section className="   my-3  mx-auto">
           <div className=" mx-2 px-2">
             <SkillHeader />
           </div>
           <div>
             <Skills />
           </div>
-        </section>
-        <section className="lg:w-8/12 md:w-10/12  mx-auto ">
-          <SaySomething />
         </section>
       </div>
       <footer className="md:mt-10 mt-2">

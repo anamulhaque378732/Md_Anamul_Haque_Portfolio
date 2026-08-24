@@ -1,6 +1,6 @@
 import { CgMail } from "react-icons/cg";
 import { FiSend, FiMessageCircle } from "react-icons/fi";
-import NavNewTab from "../Navbar/NavNewTab";
+import NavNewTab from "../Banner/BannerNew";
 
 const SaySomething = () => {
   return (
