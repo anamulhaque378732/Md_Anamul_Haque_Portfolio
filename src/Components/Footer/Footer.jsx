@@ -66,7 +66,7 @@ const Footer = () => {
           </nav>
         </div>
 
-        <div class="container mt-8 text-center text-sm border-t mx-auto pt-4">
+        <div className="container mt-8 text-center text-sm border-t mx-auto pt-4">
           <p>© 2026 Md. Anamul Haque. All rights reserved.</p>
         </div>
       </footer>

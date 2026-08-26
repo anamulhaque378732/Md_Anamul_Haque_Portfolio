@@ -13,7 +13,7 @@ const Project = ({ project }) => {
 
   return (
     <>
-      <div className="h-full flex flex-col">
+      <div className="h-full flex flex-col object-cover transition-transform duration-500 ease-in-out hover:scale-105">
         <div className="max-w-lg mx-auto md:mb-8 mb-6 lg:mb-12 h-full flex flex-col">
           <div className="bg-base-300 rounded-2xl shadow-xl md:p-6 p-2 border border-gray-100 h-full flex flex-col">
             {/* Image */}
@@ -21,7 +21,7 @@ const Project = ({ project }) => {
               <img
                 src={image_url}
                 alt={title}
-                className="w-full h-52 my-2 object-cover"
+                className="w-full h-52 my-2 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
               />
             </div>
 

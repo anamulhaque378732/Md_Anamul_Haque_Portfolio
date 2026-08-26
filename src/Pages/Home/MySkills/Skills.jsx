@@ -52,10 +52,8 @@ const skillSections = [
 
 function Skills() {
   return (
-    <div className="max-w-6xl mx-auto p-4 space-y-8">
-      <h2 className="text-2xl font-bold text-center    mb-6">
-        Technical Skills
-      </h2>
+    <div className="  mx-auto p-4 space-y-8">
+      <h2 className="text-4xl font-bold text-center mb-6">Technical Skills</h2>
 
       {/* 3 Section Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
