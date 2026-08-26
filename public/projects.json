@@ -1,35 +1,206 @@
 [
   {
+    "id": "002",
+    "title": "Parcel delivery Management System",
+    "short_description": "A full-stack parcel delivery platform that makes parcel booking, payment, tracking, and delivery management simple and efficient.",
+    "details": "Ans Shift is a full-stack parcel delivery web application built with the MERN stack. The platform allows users to book and track parcels, make online payments, and manage their deliveries. It also provides dedicated dashboards for Admins and Riders, with role-based access control and secure authentication. The project gave me hands-on experience building REST APIs, implementing JWT authentication, integrating Stripe payments, managing MongoDB data, and developing a complete full-stack application.",
+
+    "image_url": "https://i.ibb.co.com/twtVPq6N/ans-shift.png",
+
+    "type": "Full Stack",
+    "category": "Parcel Delivery",
+    "status": "Completed",
+
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TanStack Query",
+      "React Hook Form",
+      "Axios",
+      "Tailwind CSS",
+      "React Icons",
+      "Firebase Authentication",
+      "JWT",
+      "Stripe"
+    ],
+
+    "features": [
+      "Responsive user interface",
+      "Parcel booking system",
+      "Parcel tracking system",
+      "Online payment with Stripe",
+      "Role-based authentication",
+      "Admin dashboard",
+      "User dashboard",
+      "Rider dashboard",
+      "Rider management",
+      "Parcel management",
+      "Delivery status management",
+      "Secure JWT authentication",
+      "Firebase authentication",
+      "REST API integration",
+      "MongoDB database management"
+    ],
+
+    "authentication": [
+      "Firebase Authentication",
+      "JWT Authentication",
+      "Role-Based Access Control"
+    ],
+
+    "roles": ["Admin", "User", "Rider"],
+
+    "payment": "Stripe Payment",
+
+    "role": [
+      "Frontend Development",
+      "Backend Development",
+      "REST API Development",
+      "Database Management",
+      "Authentication & Authorization",
+      "Payment Integration",
+      "Dashboard Development",
+      "Responsive UI Development"
+    ],
+
+    "deployment": ["Firebase Hosting"],
+
+    "github_client": "https://github.com/anamulhaque378732/Ans-shift-client",
+    "github_server": "https://github.com/anamulhaque378732/Ans-shift-server",
+    "visit_url": "https://ans-shift.web.app/",
+
+    "responsive": true
+  },
+  {
     "id": "001",
-    "image_url": "https://i.ibb.co.com/Myyps4JL/Capture-1.png",
     "title": "News Website",
-    "details": "Modern news website built with React, React Hooks, Tailwind CSS, and Firebase authentication. Features categories, latest news, login system, social links, and responsive layout for seamless user experience.",
-    "use_element": [
-      "HTML",
+    "short_description": "A modern and responsive news platform designed to deliver the latest news through a clean, engaging, and user-friendly interface.",
+    "details": "A modern news platform built with React and Tailwind CSS, featuring category-based news browsing, dynamic routing, Firebase authentication, and a fully responsive user interface. The project focuses on providing a smooth reading experience with organized content, interactive sections, and a clean modern design.",
+
+    "image_url": "https://i.ibb.co.com/Myyps4JL/Capture-1.png",
+
+    "type": "Frontend",
+    "category": "News Website",
+    "status": "Completed",
+
+    "technologies": [
       "React",
       "Tailwind CSS",
-      "React Router Dom",
-      "React Hook From",
-      "Firebase Authentication"
+      "React Router",
+      "Firebase Authentication",
+      "Date-fns",
+      "React Fast Marquee",
+      "React Icons"
     ],
-    "code_url": "https://github.com/anamulhaque378732/dragonNews463199",
-    "visit_url": "https://dragonnews4631.firebaseapp.com/category/0"
+
+    "features": [
+      "News category browsing",
+      "Latest news section",
+      "Firebase authentication",
+      "Responsive design",
+      "Dynamic routing",
+      "Date formatting",
+      "Marquee news section",
+      "Interactive UI components"
+    ],
+
+    "authentication": ["Firebase Authentication"],
+
+    "roles": ["User"],
+
+    "payment": null,
+
+    "role": [
+      "Frontend Development",
+      "UI Development",
+      "Authentication Integration",
+      "Routing Implementation",
+      "Responsive Design"
+    ],
+
+    "deployment": ["Firebase Hosting"],
+
+    "github_client": "https://github.com/anamulhaque378732/dragonNews463199",
+    "github_server": null,
+    "visit_url": "https://dragonnews4631.firebaseapp.com/",
+
+    "responsive": true
   },
 
   {
-    "id": "002",
-    "image_url": "https://i.ibb.co.com/Myyps4JL/Capture-1.png",
-    "title": "News Website",
-    "details": "Modern news website built with React, React Hooks, Tailwind CSS, and Firebase authentication. Features categories, latest news, login system, social links, and responsive layout for seamless user experience.",
-    "use_element": [
-      "HTML",
+    "id": "003",
+    "title": "Discover Bogura",
+    "short_description": "A full-stack digital platform designed to explore the people, places, culture, institutions, and rich heritage of Bogura district.",
+    "details": "Discover Bogura is a full-stack digital platform built to explore and showcase the people, places, culture, institutions, and heritage of Bogura district. The platform provides organized information about different Upazilas, famous people, educational institutions, tourist attractions, police stations, fire service offices, medical institutions, traditional foods, rivers, and more. This project gave me hands-on experience working across the entire application, from building the responsive frontend and REST APIs to implementing authentication, database management, API integration, and deployment.",
+
+    "image_url": "https://i.ibb.co.com/6R5WQPDp/bogura-v.png",
+
+    "type": "Full Stack",
+    "category": "District Information Platform",
+    "status": "Completed",
+
+    "technologies": [
       "React",
       "Tailwind CSS",
-      "React Router Dom",
-      "React Hook From",
-      "Firebase Authentication"
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase Authentication",
+      "Firebase Admin SDK",
+      "TanStack Query",
+      "Axios",
+      "REST API",
+      "JWT"
     ],
-    "code_url": "https://github.com/anamulhaque378732/dragonNews463199",
-    "visit_url": "https://dragonnews4631.firebaseapp.com/category/0"
+
+    "features": [
+      "District information platform",
+      "Upazila-based information",
+      "Famous people directory",
+      "Educational institutions",
+      "Tourist attractions",
+      "Police station information",
+      "Fire service office information",
+      "Medical institution information",
+      "Traditional foods",
+      "River information",
+      "Responsive user interface",
+      "Dynamic data loading",
+      "REST API integration",
+      "Secure authentication",
+      "Admin data management"
+    ],
+
+    "authentication": [
+      "Firebase Authentication",
+      "Firebase Admin SDK",
+      "JWT Authentication",
+      "Role-Based Access Control"
+    ],
+
+    "roles": ["Admin", "User"],
+
+    "payment": null,
+
+    "role": [
+      "Frontend Development",
+      "Backend Development",
+      "REST API Development",
+      "MongoDB Database Management",
+      "Authentication & Authorization",
+      "API Integration",
+      "Responsive UI Development",
+      "Deployment"
+    ],
+
+    "deployment": ["Firebase Hosting", "Render"],
+
+    "github_client": "https://github.com/anamulhaque378732/discover-bogura-client",
+    "github_server": "https://github.com/anamulhaque378732/discover-bogura-server",
+    "visit_url": "https://discover-bogura.web.app/",
+
+    "responsive": true
   }
 ]

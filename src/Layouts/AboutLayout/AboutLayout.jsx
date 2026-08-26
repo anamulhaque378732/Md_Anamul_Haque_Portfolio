@@ -1,8 +1,8 @@
 import Header from "../../Components/Navbar/Navbar";
 
 import Footer from "../../Components/Footer/Footer";
-import AboutHeader from "../../Components/AboutMe/AboutHeader";
-import AboutDetails from "../../Components/AboutMe/AboutDetails";
+import AboutHeader from "../../Pages/Home/AboutMe/AboutHeader";
+import AboutDetails from "../../Pages/Home/AboutMe/AboutDetails";
 
 const AboutLayout = () => {
   return (

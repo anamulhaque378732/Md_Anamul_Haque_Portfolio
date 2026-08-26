@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router";
-import ProjectsHeader from "../../Components/Projects/ProjectsHeader";
-import Project from "../../Components/Projects/Project";
+import ProjectsHeader from "../../Pages/Home/Projects/ProjectsHeader";
+import Project from "../../Pages/Home/Projects/Project";
 
 const ProjectLayout = () => {
   const projects = useLoaderData();
@@ -11,7 +11,7 @@ const ProjectLayout = () => {
           <div className="md:mb-6 py-3 lg:mb-6 lg:px-5 px-1 md:px-3 mb-2 ">
             <ProjectsHeader />
           </div>
-          <div className="grid lg:grid-cols-3  md:grid-cols-1 grid-cols-1 lg:my-8 px-5 lg:gap-10 justify-between ">
+          <div className=" grid grid-cols-1 lg:gap-8 md:gap-6 gap-4  lg:grid-cols-2 md:grid-cols-2 px-2 items-stretch">
             {projects &&
               projects.map((project) => (
                 <Project key={project.id} project={project} />

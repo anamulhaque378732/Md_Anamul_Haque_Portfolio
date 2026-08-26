@@ -1,20 +1,20 @@
-import htmlLogo from "../../assets/htmlPng.png";
-import cssLogo from "../../assets/cssPng.jpg";
-import javaScriptLogo from "../../assets/javaScriptPng.png";
-import reactLogo from "../../assets/reactPng.png";
-import nextLogo from "../../assets/nextPng.webp";
-import ReactQueryLog from "../../assets/reactQueryPng.webp";
-import bootstrapLogo from "../../assets/bootstarpPng.png";
-import tailwindLogo from "../../assets/tailwindLogoPng.webp";
-import styleComponentLogo from "../../assets/styleComponentPng.png";
-import gitLogo from "../../assets/gitPng.png";
-import goLogo from "../../assets/go.png";
-import gitHubLogo from "../../assets/github.png";
+import htmlLogo from "../../../assets/htmlPng.png";
+import cssLogo from "../../../assets/cssPng.jpg";
+import javaScriptLogo from "../../../assets/javaScriptPng.png";
+import reactLogo from "../../../assets/reactPng.png";
+import nextLogo from "../../../assets/nextPng.webp";
+import ReactQueryLog from "../../../assets/reactQueryPng.webp";
+import bootstrapLogo from "../../../assets/bootstarpPng.png";
+import tailwindLogo from "../../../assets/tailwindLogoPng.webp";
+import styleComponentLogo from "../../../assets/styleComponentPng.png";
+import gitLogo from "../../../assets/gitPng.png";
+import goLogo from "../../../assets/go.png";
+import gitHubLogo from "../../../assets/github.png";
 
-import expressLogo from "../../assets/Express.jpg";
-import nodeLogo from "../../assets/node.webp";
-import mongodbLogo from "../../assets/mongodb.png";
-import postManLogo from "../../assets/postman.png";
+import expressLogo from "../../../assets/Express.jpg";
+import nodeLogo from "../../../assets/node.webp";
+import mongodbLogo from "../../../assets/mongodb.png";
+import postManLogo from "../../../assets/postman.png";
 
 const Skills = () => {
   return (

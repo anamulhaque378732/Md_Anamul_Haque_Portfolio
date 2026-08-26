@@ -1,4 +1,4 @@
-import workProfile from "../../assets/WorkProfile.jpg";
+import workProfile from "../../../assets/Workprofile.jpg";
 
 const SkillHeader = () => {
   return (

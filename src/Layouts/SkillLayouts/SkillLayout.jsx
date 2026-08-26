@@ -1,5 +1,5 @@
-import SkillHeader from "../../Components/MySkills/SkillHeader";
-import Skills from "../../Components/MySkills/Skills";
+import SkillHeader from "../../Pages/Home/MySkills/SkillHeader";
+import Skills from "../../Pages/Home/MySkills/Skills";
 
 const SkillLayout = () => {
   return (

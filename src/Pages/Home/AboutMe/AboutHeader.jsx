@@ -1,4 +1,4 @@
-import proPic from "../../assets/proPic.jpg";
+import proPic from "../../../assets/proPic.jpg";
 
 const AboutHeader = () => {
   return (
