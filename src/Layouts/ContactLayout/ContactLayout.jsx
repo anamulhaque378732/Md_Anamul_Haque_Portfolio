@@ -1,4 +1,4 @@
-import SaySomething from "../../Components/SaySomething/SaySomething";
+import SaySomething from "../../Pages/Home/SaySomething/SaySomething";
 
 const ContactLayout = () => {
   return (

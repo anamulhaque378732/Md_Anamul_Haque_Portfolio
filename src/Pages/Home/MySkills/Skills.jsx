@@ -4,7 +4,7 @@ import javaScriptLogo from "../../../assets/javaScriptPng.png";
 import reactLogo from "../../../assets/reactPng.png";
 import nextLogo from "../../../assets/nextPng.webp";
 import ReactQueryLog from "../../../assets/reactQueryPng.webp";
-import bootstrapLogo from "../../../assets/bootstarpPng.png";
+
 import tailwindLogo from "../../../assets/tailwindLogoPng.webp";
 import styleComponentLogo from "../../../assets/styleComponentPng.png";
 import gitLogo from "../../../assets/gitPng.png";
@@ -16,158 +16,79 @@ import nodeLogo from "../../../assets/node.webp";
 import mongodbLogo from "../../../assets/mongodb.png";
 import postManLogo from "../../../assets/postman.png";
 
-const Skills = () => {
+const skillSections = [
+  {
+    title: "Frontend Development",
+    skills: [
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "JavaScript", logo: javaScriptLogo },
+      { name: "React", logo: reactLogo },
+      { name: "Next.js", logo: nextLogo },
+      { name: "Tailwind CSS", logo: tailwindLogo },
+
+      { name: "Styled Components", logo: styleComponentLogo },
+      { name: "React Query", logo: ReactQueryLog },
+    ],
+  },
+  {
+    title: "Backend Development",
+    skills: [
+      { name: "Node.js", logo: nodeLogo },
+      { name: "Express.js", logo: expressLogo },
+      { name: "Go", logo: goLogo },
+    ],
+  },
+  {
+    title: "Database & Tools",
+    skills: [
+      { name: "MongoDB", logo: mongodbLogo },
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: gitHubLogo },
+      { name: "Postman", logo: postManLogo },
+    ],
+  },
+];
+
+function Skills() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {/* Basic skill */}
+    <div className="max-w-6xl mx-auto p-4 space-y-8">
+      <h2 className="text-2xl font-bold text-center    mb-6">
+        Technical Skills
+      </h2>
 
-      <div className="w-full max-w-96 p-4 rounded-lg">
-        <ul className="border flex flex-wrap justify-center gap-5 p-4 rounded-lg w-full max-w-[20.1rem]">
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={htmlLogo}
-              alt="htmlLogo"
-            />
-            <p>HTML</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img className="w-10 h-10 rounded-sm" src={cssLogo} alt="cssLogo" />{" "}
-            <p>CSS</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={javaScriptLogo}
-              alt="JsLogo"
-            />
-            <p>JavaScript</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img className="w-10 h-10 rounded-sm" src={goLogo} alt="GoLogo" />
-            <p> Go </p>
-          </li>
-        </ul>
-      </div>
+      {/* 3 Section Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {skillSections.map((section, idx) => (
+          <div key={idx} className="border rounded-xl p-5 shadow-sm   ">
+            {/* Section Header */}
+            <h3 className="text-2xl font-bold     mb-4 pb-2 border-b text-center">
+              {section.title}
+            </h3>
 
-      {/*  design */}
-
-      <div className="w-full max-w-96 p-4 rounded-lg">
-        <ul className="border flex flex-wrap justify-center gap-5 p-4 rounded-lg w-full max-w-[20.1rem]">
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={bootstrapLogo}
-              alt="BootStrapLogo"
-            />
-            <p>Bootstrap</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={tailwindLogo}
-              alt="tailwindLogo"
-            />
-            <p>Tailwind CSS</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 rounded-sm h-10"
-              src={styleComponentLogo}
-              alt="StyleComponentLogo"
-            />
-            <p>Styled Components</p>
-          </li>
-        </ul>
-      </div>
-      {/* Frame work */}
-
-      <div className="w-full max-w-96 p-4 rounded-lg">
-        <ul className="border flex flex-wrap justify-center gap-5 p-4 rounded-lg w-full max-w-[20.1rem]">
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={reactLogo}
-              alt="reactLogo"
-            />{" "}
-            <p>React</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={nextLogo}
-              alt="next.jsLOgo"
-            />{" "}
-            <p>Next.js</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={ReactQueryLog}
-              alt="reactQueryLogo"
-            />{" "}
-            <p>React query</p>
-          </li>
-        </ul>
-      </div>
-
-      {/* Backed */}
-
-      <div className="w-full max-w-96 p-4 rounded-lg">
-        <ul className="border flex flex-wrap justify-center gap-5 p-4 rounded-lg w-full max-w-[20.1rem]">
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={expressLogo}
-              alt="reactLogo"
-            />
-            <p>Express.js</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={nodeLogo}
-              alt="next.jsLOgo"
-            />
-            <p>Node.js</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 h-10 rounded-sm"
-              src={mongodbLogo}
-              alt="reactQueryLogo"
-            />
-            <p>MongoDB</p>
-          </li>
-        </ul>
-      </div>
-      {/* git github */}
-      <div className="flex gap-4 p-2 md:p-4 md:w-96 rounded-lg">
-        <ul className="border flex flex-wrap justify-center gap-5 p-4 rounded-lg w-full max-w-[20.1rem]">
-          <li className="flex flex-col md:gap-4 gap-2 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img className="w-10 rounded-sm h-10" src={gitLogo} alt="gitLogo" />
-            <p>Git</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 rounded-sm h-10"
-              src={gitHubLogo}
-              alt="gitLogo"
-            />
-            <p>GitHub</p>
-          </li>
-          <li className="flex flex-col gap-4 justify-center items-center border text-center rounded-lg size-24 text-sm">
-            <img
-              className="w-10 rounded-sm h-10"
-              src={postManLogo}
-              alt="gitLogo"
-            />
-            <p>Postman</p>
-          </li>
-        </ul>
+            {/* Skills Grid */}
+            <ul className="flex flex-wrap gap-4 justify-center">
+              {section.skills.map((skill, skillIdx) => (
+                <li
+                  key={skillIdx}
+                  className="group flex flex-col gap-2 justify-center items-center border rounded-lg size-24 text-sm cursor-pointer transition-all duration-200 hover:border-blue-500 hover:shadow-md hover:-translate-y-1"
+                >
+                  <img
+                    className="w-10 h-10 object-contain rounded-sm transition-transform duration-200 group-hover:scale-110"
+                    src={skill.logo}
+                    alt={skill.name}
+                  />
+                  <p className="font-medium text-xs group-hover:underline group-hover:text-blue-600 transition-colors text-center px-1">
+                    {skill.name}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   );
-};
+}
 
 export default Skills;

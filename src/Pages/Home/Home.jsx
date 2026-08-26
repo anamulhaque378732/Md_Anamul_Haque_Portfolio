@@ -2,7 +2,7 @@ import { useLoaderData } from "react-router";
 import AboutMe from "./AboutMe/AboutMe";
 import MySkill from "./MySkills/MySkill";
 import Projects from "./Projects/Projects";
-import SaySomething from "../../Components/SaySomething/SaySomething";
+import SaySomething from "./SaySomething/SaySomething";
 import Banner from "./Banner/Banner";
 
 const Home = () => {

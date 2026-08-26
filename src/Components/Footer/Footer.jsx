@@ -1,5 +1,8 @@
 import { Link } from "react-router";
-import SocialLink from "../SocialLink";
+import SocialLink from "../SocialLnk/SocialLink";
+import { MdEmail } from "react-icons/md";
+import { CiLocationOn } from "react-icons/ci";
+import { IoCallOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -10,11 +13,35 @@ const Footer = () => {
             <h6 className=" text-xl font-bold">Contact Information</h6>
 
             <ul>
-              <li className="hover:underline my-2">
-                anamulhaque4631@gmail.com
+              <li className="my-2 flex items-center gap-2">
+                <MdEmail className="text-xl shrink-0" />
+                <a
+                  href="mailto:anamulhaque4631@gmail.com"
+                  className="hover:underline"
+                >
+                  anamulhaque4631@gmail.com
+                </a>
               </li>
-              <li className="hover:underline my-2"> +880 1521 378732</li>
-              <li className="hover:underline my-2"> Bogura Sador, Bogura</li>
+              <li className="my-2 flex items-center gap-2">
+                <IoCallOutline className="text-xl shrink-0" />
+                <a
+                  href="mailto:anamulhaque4631@gmail.com"
+                  className="hover:underline"
+                >
+                  +880 1521 378732
+                </a>
+              </li>
+
+              <li className="my-2 flex items-center gap-2">
+                <CiLocationOn className="text-xl shrink-0" />
+                <a
+                  href="mailto:anamulhaque4631@gmail.com"
+                  className="hover:underline"
+                >
+                  Bogura Sador, Bogura
+                </a>
+              </li>
+              <li className="hover:underline my-2"> </li>
             </ul>
           </nav>
 
